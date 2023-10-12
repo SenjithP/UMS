@@ -26,7 +26,7 @@ const Hero = () => {
                 objectFit: 'cover',
               }} 
               />}
-              <h2 className='text-center mb-4'> Welcome back {userInfo.name} </h2>
+              <h2 className='text-center mb-4'> Welcome, {userInfo.name} </h2>
               <p className='text-center mb-4'> Email: {userInfo.email} </p>
               <div className='d-flex'>
                 <LinkContainer to='/profile'>
@@ -38,7 +38,7 @@ const Hero = () => {
             </>
             : 
             <>
-              <h2 className='text-center mb-4'> Compass User  </h2>
+              <h2 className='text-center mb-4'> UMS User  </h2>
               <p className='text-center mb-4'> Please Login to access User Dashboard </p>
               <div className='d-flex'>
                 <LinkContainer to='/login'>
